@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dasari Sridevi — B.Tech CSE student &amp; aspiring full-stack developer. Portfolio showcasing web projects, AI/ML work, internships, and skills. Open to software internships 2026." />
+  <meta name="keywords" content="Dasari Sridevi, CSE portfolio, full stack developer, computer science student, web developer, internship" />
+  <meta name="author" content="Dasari Sridevi" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0b0f19" id="meta-theme-color" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dasari Sridevi | Full-Stack Developer Portfolio" />
+  <meta property="og:description" content="Professional portfolio — projects, skills, resume, and contact. B.Tech CSE student seeking internship opportunities." />
+  <meta property="og:url" content="https://24a31a05bp.github.io/Portfolio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dasari Sridevi | Developer Portfolio" />
+  <meta name="twitter:description" content="CSE student portfolio with real projects, skills, and resume." />
+  <link rel="canonical" href="https://24a31a05bp.github.io/Portfolio/" />
+  <title>Dasari Sridevi | Full-Stack Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dasari Sridevi",
+    "jobTitle": "Computer Science Student & Aspiring Full-Stack Developer",
+    "email": "dasarisridevi481@gmail.com",
+    "telephone": "+91-8121592499",
+    "url": "https://24a31a05bp.github.io/Portfolio/",
+    "sameAs": [
+      "https://github.com/24A31A05BP",
+      "https://www.linkedin.com/in/sridevi-dasari-41205232b",
+      "https://leetcode.com/u/Dasari_Sridevi/"
+    ],
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Pragati Engineering College" },
+    "knowsAbout": ["JavaScript", "Python", "HTML", "CSS", "Data Structures", "Machine Learning"]
+  }
+  </script>
+</head>
+<body>
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+  <div class="cursor-trail" id="cursor-trail" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar navbar-expand-lg glass-nav fixed-top">
+      <div class="container">
+        <a class="navbar-brand logo-text" href="#hero">&lt;DS /&gt;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger"><span></span><span></span><span></span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link active" href="#hero" data-section="hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" data-section="about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills" data-section="skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects" data-section="projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resume" data-section="resume">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
+          </ul>
+          <span class="nav-indicator" id="nav-indicator"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="section hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 order-2 order-lg-1">
+            <p class="hero-greeting"><span class="code-accent">const</span> developer = <span class="code-string">"Sridevi"</span>;</p>
+            <h1 class="hero-title">Hi, I'm <span class="text-gradient">Dasari Sridevi</span></h1>
+            <p class="hero-subtitle typewriter" id="typewriter" aria-live="polite"></p>
+            <p class="hero-desc">
+              B.Tech Computer Science student passionate about problem-solving, clean code,
+              and building real-world software with AI and full-stack technologies.
+              <strong class="d-block mt-2 text-neon-soft">Goal:</strong>
+              Land my first software internship and grow as a professional full-stack developer.
+            </p>
+            <div class="d-flex flex-wrap gap-3 hero-cta">
+              <a href="#projects" class="btn btn-neon-primary">View Work</a>
+              <a href="assets/Resume_CSE_Student.html?print=1" class="btn btn-neon-outline" target="_blank">Download CV</a>
+            </div>
+            <div class="hero-stats row g-3 mt-4">
+              <div class="col-4">
+                <div class="stat-card glass-card text-center">
+                  <span class="stat-value">8.03</span>
+                  <span class="stat-label">CGPA</span>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-card glass-card text-center">
+                  <span class="stat-value">3</span>
+                  <span class="stat-label">Projects</span>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-card glass-card text-center">
+                  <span class="stat-value">3</span>
+                  <span class="stat-label">Internships</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 text-center">
+            <div class="profile-frame">
+              <div class="profile-glow"></div>
+              <img src="assets/profile.svg" alt="Dasari Sridevi — Developer portrait" class="profile-img" width="320" height="320" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">// about</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6">
+            <div class="glass-card h-100 about-card">
+              <p>
+                I'm a motivated <strong>B.Tech CSE</strong> student at Pragati Engineering College,
+                driven by curiosity for software development, machine learning, and elegant problem-solving.
+              </p>
+              <p>
+                I enjoy turning ideas into interactive web applications, strengthening my DSA foundation
+                through competitive programming, and exploring emerging tech like Generative AI and quantum computing basics.
+              </p>
+              <p>
+                Currently seeking <strong>internship opportunities</strong> where I can contribute to
+                meaningful projects while growing as a developer.
+              </p>
+              <h3 class="about-goals-title"><i class="bi bi-bullseye"></i> Career Goals</h3>
+              <ul class="goals-list">
+                <li>Secure a full-stack / software engineering internship in 2026</li>
+                <li>Build production-quality web apps with clean, maintainable code</li>
+                <li>Strengthen DSA, system design, and modern frameworks (React, Node.js)</li>
+                <li>Contribute to open source and document my learning publicly</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="timeline glass-card h-100">
+              <h3 class="timeline-title"><i class="bi bi-mortarboard"></i> Education</h3>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>B.Tech — Computer Science Engineering</h4>
+                  <p>Pragati Engineering College · 2nd Year · <strong>CGPA: 8.03</strong></p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>Intermediate (MPC)</h4>
+                  <p>Pragati Junior College · <strong>92.6%</strong></p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>SSC</h4>
+                  <p>Oxford English Medium School · <strong>91.2%</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">// skills</span>
+          <h2 class="section-title">Technical Skills</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card glass-card" data-skill="90">
+              <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+              <h3>Programming</h3>
+              <p>C, C++, Java, Python</p>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card glass-card" data-skill="85">
+              <div class="skill-icon"><i class="bi bi-window"></i></div>
+              <h3>Web Development</h3>
+              <p>HTML, CSS, JavaScript, Bootstrap</p>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card glass-card" data-skill="80">
+              <div class="skill-icon"><i class="bi bi-diagram-3"></i></div>
+              <h3>Core CS</h3>
+              <p>DSA, OOP, Problem Solving</p>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card glass-card" data-skill="75">
+              <div class="skill-icon"><i class="bi bi-cpu"></i></div>
+              <h3>AI / ML</h3>
+              <p>AI workflows, ML basics, Jupyter</p>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card glass-card" data-skill="82">
+              <div class="skill-icon"><i class="bi bi-tools"></i></div>
+              <h3>Tools</h3>
+              <p>VS Code, GitHub, Jupyter Notebook</p>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card glass-card" data-skill="70">
+              <div class="skill-icon"><i class="bi bi-stars"></i></div>
+              <h3>Domain</h3>
+              <p>Quantum Computing basics, Cloud AI</p>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">// projects</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle text-muted">Personal builds and academic projects</p>
+        </div>
+        <div class="project-filters text-center mb-4">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="ai">AI</button>
+        </div>
+        <div class="row g-4" id="projects-grid">
+          <div class="col-md-6 col-lg-4 project-item" data-category="web">
+            <article class="project-card glass-card" data-project="portfolio">
+              <div class="project-img-wrap">
+                <img src="assets/project_portfolio.svg" alt="Personal Portfolio Website preview" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <span class="project-tag">HTML · CSS · Bootstrap · JS</span>
+                <h3>Personal Portfolio Website</h3>
+                <p>Responsive developer portfolio with projects, skills, resume viewer, and contact form.</p>
+                <div class="project-links">
+                  <a href="#" id="portfolio-live-link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live</a>
+                  <a href="#" id="portfolio-repo-link" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
+                  <button class="btn-link" data-bs-toggle="modal" data-bs-target="#projectModal" data-project="portfolio">Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 project-item" data-category="web">
+            <article class="project-card glass-card" data-project="taskplanner">
+              <div class="project-img-wrap">
+                <img src="assets/project_todo.svg" alt="Task Planner — To-Do List app preview" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <span class="project-tag">HTML · CSS · JavaScript</span>
+                <h3>Task Planner (To-Do List)</h3>
+                <p>Single web app to add, organize, and delete tasks with real-time DOM updates and interactive UI.</p>
+                <div class="project-links">
+                  <a href="https://github.com/24A31A05BP/Task-Planner" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
+                  <button class="btn-link" data-bs-toggle="modal" data-bs-target="#projectModal" data-project="taskplanner">Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 project-item" data-category="ai">
+            <article class="project-card glass-card" data-project="ai">
+              <div class="project-img-wrap">
+                <img src="assets/project_ai.svg" alt="AI Interview Simulator preview" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <span class="project-tag">AI / ML</span>
+                <h3>AI Interview Simulator</h3>
+                <p>Platform simulating technical &amp; HR interviews to boost confidence and communication skills.</p>
+                <div class="project-links">
+                  <a href="https://github.com/Jeavan5493/AI-BASED-INTERVIEW-SIMULATOR" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
+                  <button class="btn-link" data-bs-toggle="modal" data-bs-target="#projectModal" data-project="ai">Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">// resume</span>
+          <h2 class="section-title">Professional Resume</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="resume-preview glass-card pulse-border">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <h3><i class="bi bi-mortarboard text-neon"></i> Education</h3>
+                  <ul class="resume-list">
+                    <li>B.Tech CSE — CGPA 8.03</li>
+                    <li>Intermediate — 92.6%</li>
+                    <li>SSC — 91.2%</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h3><i class="bi bi-briefcase text-neon"></i> Internships</h3>
+                  <ul class="resume-list">
+                    <li>Google AI-ML Virtual Internship</li>
+                    <li>AWS Generative AI Internship</li>
+                    <li>AWS Data Engineering Internship</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h3><i class="bi bi-award text-neon"></i> Certifications</h3>
+                  <ul class="resume-list">
+                    <li>Programming in Java — NPTEL</li>
+                    <li>Enterprise Design Thinking — IBM</li>
+                    <li>Intro to Quantum Computing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="resume-actions d-flex flex-wrap gap-3 justify-content-center mt-4">
+                <button class="btn btn-neon-primary" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                  <i class="bi bi-eye"></i> View Resume
+                </button>
+                <a href="assets/Resume_CSE_Student.html?print=1" class="btn btn-neon-outline" target="_blank">
+                  <i class="bi bi-download"></i> Download PDF
+                </a>
+                <button class="btn btn-neon-outline" id="print-resume"><i class="bi bi-printer"></i> Print</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">// contact</span>
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <div class="glass-card contact-info h-100">
+              <p>Open to internships, collaborations, and tech conversations. Reach out anytime!</p>
+              <ul class="contact-list">
+                <li><i class="bi bi-envelope"></i> <a href="mailto:dasarisridevi481@gmail.com">dasarisridevi481@gmail.com</a></li>
+                <li><i class="bi bi-telephone"></i> <a href="tel:8121592499">8121592499</a></li>
+                <li><i class="bi bi-geo-alt"></i> Andhra Pradesh, India</li>
+              </ul>
+              <div class="social-links">
+                <a href="https://github.com/24A31A05BP" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/sridevi-dasari-41205232b" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://leetcode.com/u/Dasari_Sridevi/" target="_blank" rel="noopener" aria-label="LeetCode"><i class="bi bi-code-square"></i></a>
+                <a href="https://www.hackerrank.com/profile/24A31A05BP" target="_blank" rel="noopener" aria-label="HackerRank"><i class="bi bi-braces"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form class="glass-card contact-form" id="contact-form" novalidate>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control glow-input" id="name" name="name" autocomplete="name" required />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control glow-input" id="email" name="email" autocomplete="email" required />
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control glow-input" id="subject" name="subject" placeholder="Internship inquiry / Collaboration" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control glow-input" id="message" name="message" rows="4" required></textarea>
+                <div class="invalid-feedback">Please enter a message.</div>
+              </div>
+              <button type="submit" class="btn btn-neon-primary w-100" id="contact-submit">
+                <span class="submit-text">Send Message</span>
+                <span class="submit-loading d-none"><span class="spinner-border spinner-border-sm"></span> Sending…</span>
+              </button>
+              <p class="form-success d-none mt-3" id="form-success"><i class="bi bi-check-circle"></i> Thank you! Your message was sent successfully.</p>
+              <p class="form-error d-none mt-3" id="form-error"><i class="bi bi-exclamation-circle"></i> Could not send. Please email me directly.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p class="mb-0">&copy; 2026 Dasari Sridevi. All rights reserved.</p>
+      <p class="mb-0 footer-note">CSE Student · Problem Solver · Quick Learner</p>
+    </div>
+  </footer>
+
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode" title="Light / Dark mode"><i class="bi bi-sun-fill" id="theme-icon"></i></button>
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top"><i class="bi bi-arrow-up"></i></button>
+  <button class="cursor-toggle" id="cursor-toggle" aria-label="Toggle cursor trail" title="Toggle cursor effect"><i class="bi bi-magic"></i></button>
+
+  <!-- Project Modal -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content glass-card border-0">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="projectModalLabel">Project Details</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="project-modal-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resume Modal -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down modal-lg">
+      <div class="modal-content glass-card border-0">
+        <div class="modal-header border-0 sticky-top glass-nav">
+          <h5 class="modal-title" id="resumeModalLabel">Dasari Sridevi — Resume</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body resume-full" id="resume-print-area">
+          <header class="resume-header text-center mb-4">
+            <h2>DASARI SRIDEVI</h2>
+            <p>
+              <a href="tel:8121592499">8121592499</a> ·
+              <a href="mailto:dasarisridevi481@gmail.com">dasarisridevi481@gmail.com</a>
+            </p>
+            <p class="resume-links">
+              <a href="https://leetcode.com/u/Dasari_Sridevi/" target="_blank">LeetCode</a> ·
+              <a href="https://www.hackerrank.com/profile/24A31A05BP" target="_blank">HackerRank</a> ·
+              <a href="https://github.com/24A31A05BP" target="_blank">GitHub</a> ·
+              <a href="https://www.linkedin.com/in/sridevi-dasari-41205232b" target="_blank">LinkedIn</a>
+            </p>
+          </header>
+
+          <section class="resume-section">
+            <h3>Career Objective</h3>
+            <p>Motivated B.Tech Computer Science student seeking internship opportunities to apply programming and problem-solving skills while contributing to real-world software projects and learning emerging technologies.</p>
+          </section>
+
+          <section class="resume-section">
+            <h3>Education</h3>
+            <div class="resume-row"><strong>B.Tech — Computer Science Engineering</strong><span>CGPA: 8.03</span></div>
+            <p>Pragati Engineering College · 2nd Year</p>
+            <div class="resume-row"><strong>Intermediate (MPC)</strong><span>92.6%</span></div>
+            <p>Pragati Junior College</p>
+            <div class="resume-row"><strong>SSC</strong><span>91.2%</span></div>
+            <p>Oxford English Medium School</p>
+          </section>
+
+          <section class="resume-section">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li><strong>Programming:</strong> C, C++, Java, Python</li>
+              <li><strong>Core:</strong> DSA, OOP, Problem Solving</li>
+              <li><strong>Web:</strong> HTML, CSS, JavaScript (Basics)</li>
+              <li><strong>Tools:</strong> VS Code, GitHub, Jupyter Notebook</li>
+              <li><strong>Domain:</strong> AI, ML, Basics of Quantum Computing</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h3>Projects</h3>
+            <h4>Task Planner (To-Do List Manager)</h4>
+            <p><a href="https://github.com/24A31A05BP/Task-Planner" target="_blank">GitHub Repository</a></p>
+            <ul>
+              <li>Developed a responsive To-Do / Task Planner web application using JavaScript.</li>
+              <li>Implemented task addition and deletion using arrays and DOM manipulation.</li>
+              <li>Improved frontend skills, event handling, and user interaction management.</li>
+            </ul>
+            <h4>Personal Portfolio Website</h4>
+            <p>Responsive portfolio with SEO, contact form, dark/light mode — HTML, CSS, Bootstrap, JavaScript.</p>
+            <h4>AI-Powered Interview Simulation Platform</h4>
+            <p><a href="https://github.com/Jeavan5493/AI-BASED-INTERVIEW-SIMULATOR" target="_blank">GitHub Repository</a></p>
+            <ul>
+              <li>Simulates real-time technical and HR interview scenarios.</li>
+              <li>Helps users practice questions interactively and build confidence.</li>
+              <li>Enhanced understanding of AI-based interview preparation systems.</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h3>Internships</h3>
+            <ul>
+              <li><strong>Google AI-ML Virtual Internship</strong> — AI/ML foundations, workflows, and applications.</li>
+              <li><strong>AWS Generative AI Virtual Internship</strong> — GenAI technologies and cloud AI solutions.</li>
+              <li><strong>AWS Data Engineering Virtual Internship</strong> — Data processing, storage, and analytics on AWS.</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h3>Certifications</h3>
+            <ul>
+              <li>Programming in Java — NPTEL</li>
+              <li>Enterprise Design Thinking Practitioner — IBM</li>
+              <li>Introduction to Quantum Computing — Quantum Algorithms and Qiskit</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h3>Languages</h3>
+            <p>Telugu, English</p>
+          </section>
+
+          <section class="resume-section mb-0">
+            <h3>Strengths</h3>
+            <p>Quick Learner, Problem-Solving Skills, Team Collaboration, Passion for Software Development</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
